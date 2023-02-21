@@ -1,4 +1,4 @@
-import port from './images/soon.jpg'
+import weather from './images/weather.jpg'
 function Portfolio(){
     return(
         <section id="portfolio">
@@ -7,7 +7,7 @@ function Portfolio(){
             <div className="row">
                 <div className="col-lg-4 mt-4">
                     <div className="card">
-                    <img src={port} className="card-top" alt="Carde" />
+                    <img src={weather} className="card-top" alt="Carde" />
                         <div className="card-body">
                             <h4 className="card-title">Weather Report</h4>
                             <p className="card-text">Web application reports weather of Nongkhai that can use all platform</p>
