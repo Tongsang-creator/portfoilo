@@ -5,7 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from "./error-page";
-import ProjectOne from "./pages/projectOne/ProjectOne"
+import ProjectOne from "./pages/projectOne/ProjectOne.jsx"
+import ProjectTwo from "./pages/projectTwo/ProjectTwo.jsx"
 import Root from './root'
 import {
   createBrowserRouter,
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
   {
     path: "ProjectOne",
     element: <ProjectOne />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "ProjectTwo",
+    element: <ProjectTwo />,
     errorElement: <ErrorPage />,
   },
 ]);

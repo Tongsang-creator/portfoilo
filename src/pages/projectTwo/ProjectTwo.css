@@ -1,0 +1,68 @@
+h1{
+    font-size:  3rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.container-projecttwo{
+    background: #fff5ba;
+    padding: 1.2rem;
+    width: 90vw;
+    margin: 8rem auto;
+    max-width: 35rem;
+    border-radius: 0.25rem;
+  }
+  
+  .form-control-projecttwo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .text-input-projecttwo{
+    padding: 0.25rem;
+    font-size: 1.2rem;
+    background: lightcyan;
+    flex: 1 0 auto;
+    margin-right: 1rem;
+  }
+  
+  .submit-btn-projecttwo{
+    background-color: rgb(44, 93, 255);
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    border: transparent;
+    font-size: 1.2rem;
+    
+  }
+  .list-item-projecttwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+  }
+  
+  .alert-projecttwo{
+    margin-bottom: 1.5rem;
+    height: 1.25rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+  }
+  .alert.error-projecttwo{
+    background: red;
+    color: #fff;
+  }
+  .alert.success-projecttwo{
+    background: greenyellow;
+  }
+  
+  .btn-projecttwo{
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+  }

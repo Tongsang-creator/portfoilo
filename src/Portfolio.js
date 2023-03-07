@@ -1,4 +1,5 @@
 import weather from './images/weather.jpg'
+import soon from './images/soon.jpg'
 function Portfolio(){
     return(
         <section id="portfolio">
@@ -13,6 +14,18 @@ function Portfolio(){
                             <p className="card-text">Web application reports weather of Nongkhai that can use all platform</p>
                             <div className="text-center">
                             <a href={`ProjectOne`}>Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 mt-4">
+                    <div className="card">
+                    <img src={soon} className="card-top" alt="Carde" />
+                        <div className="card-body">
+                            <h4 className="card-title">Todolist</h4>
+                            <p className="card-text">Web application simple Todolist</p>
+                            <div className="text-center">
+                            <a href={`ProjectTwo`}>Link</a>
                             </div>
                         </div>
                     </div>
