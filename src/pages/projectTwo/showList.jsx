@@ -1,6 +1,6 @@
 import { BiEdit,BiTrash } from 'react-icons/bi';
 
-const showList =({id,title})=>{
+const showList =({id,title,removeItem})=>{
 
 
     return(
@@ -8,7 +8,7 @@ const showList =({id,title})=>{
             <p className="title">{title}</p>
             <div className="button-container">
             <BiEdit   className="btn-projecttwo"/> 
-            <BiTrash  className="btn-projecttwo"/>
+            <BiTrash onClick={()=>removeItem(id)} className="btn-projecttwo"/>
             </div>  
         </div>
     )
